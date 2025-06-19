@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Positioning</title>
+        <style>
+            body {
+                background-color: cornflowerblue;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+            h1 {
+                background-color: blueviolet;
+                color: aliceblue;
+                padding: 20px;
+                border-radius: 25px;
+                font-size: 40px;
+            }
+            .box {
+                margin: 30px;
+                padding: 20px;
+                font-size: 25px;
+                border-radius: 20px;
+                color: cornsilk;
+            }
+            .normal {
+                background-color: darkblue;
+            }
+            .sticky {
+                position: sticky;
+                top:0;
+                background-color: dodgerblue;
+            }
+            .relative {
+                position: relative;
+                top: 10px;
+                left: 20px;
+                background-color: deepskyblue;
+            }
+            .absolute {
+                position: absolute;
+                top: 200px;
+                left: 50px;
+                background-color: lightblue;
+            }
+            .fixed {
+                position: fixed;
+                bottom: 10px;
+                right: 50px;
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            🦄Let's Learn CSS Positioning!🦄</h1>
+            <div class="box normal">normal</div>
+            <div class="box sticky">sticky</div>
+            <div class="box relative">relative</div>
+            <div class="box absolute">absolute</div>
+            <div class="box fixed">fixed</div>
+    </body>
+</html>
